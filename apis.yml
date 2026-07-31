@@ -1,8 +1,24 @@
 aid: oration
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/oration.png
 name: Oration *
-description: 'Oration * is a company surfaced as a portfolio company of gv and added to the API Evangelist
-  network as a stub for enrichment. Sector: life-sciences. This profile is a lead awaiting the enrichment
-  pipeline.'
+description: 'Oration (Oration PBC, product OrationRx) was a Foster City, California prescription-savings
+  SaaS that helped self-insured employers and their employees find the lowest-priced medications,
+  analyzing over $1B in prescription drug purchases. Backed by GV (Google Ventures), Andreessen
+  Horowitz, DCVC, Chicago Ventures and others (~$11.2M raised). The company was acquired by PokitDok
+  in June 2017; its own domains (oration.io, orationrx.com) no longer resolve and no public API,
+  developer portal, or documentation surface remains. Retained in the API Evangelist network as a
+  historical life-sciences / pharmacy-benefits portfolio lead.'
 url: https://raw.githubusercontent.com/api-evangelist/oration/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,15 +26,29 @@ x-backed-by:
 - gv
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-status: acquired
+x-acquired-by: pokitdok
+x-acquired-date: '2017-06-13'
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
 - Life Sciences
+- Healthcare
+- Pharmacy
+- Prescriptions
+- Pharmacy Benefits
+- Employer Benefits
+- Health Tech
 apis: []
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-20'
+  status: nochange
+  artifacts_added: 0
+  pass: local-v1
